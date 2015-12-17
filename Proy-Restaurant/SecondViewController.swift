@@ -19,15 +19,24 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
         
         
         //definir objetos dictionary para plato
-        let plato_ensalada = ["Knombre":"Ensalada de Verduras","Kdescripcion":"Verduras picadas con tomate, zanahoria y lechuga","Kprecio":"14.50","Kimagen":"ensalada.jpg"]
+        //        let plato_ensalada = ["Knombre":"Ensalada de Verduras","Kdescripcion":"Verduras picadas con tomate, zanahoria y lechuga","Kprecio":"14.50","Kimagen":"ensalada.jpg"]
+        //
+        //        let Sopa = ["Knombre":"Sopa de Pollo","Kdescripcion":"Pollo hervido con verduras y papas con fideos","Kprecio":"10.45","Kimagen":"sopa.jpg"]
+        //
+        //        let frejol = ["Knombre":"Frejoles","Kdescripcion":"Guiso de frejoles con arroz y pescado frito","Kprecio":"18.4","Kimagen":"frejoles.jpg"]
+        //
+        //        let postre = ["Knombre":"Gelatina de fresa","Kdescripcion":"Gelatina de fresa con leche","Kprecio":"3.3","Kimagen":"gelatina.jpg"]
+        //
+        //        arrayPlatos = [plato_ensalada,Sopa,frejol,postre,plato_ensalada,Sopa,frejol,postre,plato_ensalada,Sopa,frejol,postre,plato_ensalada,Sopa,frejol,postre,plato_ensalada,Sopa,frejol,postre]
         
-        let Sopa = ["Knombre":"Sopa de Pollo","Kdescripcion":"Pollo hervido con verduras y papas con fideos","Kprecio":"10.45","Kimagen":"sopa.jpg"]
+        // Inicializar la BBDD
+        DataBase.checkAndCreateDatabase()
         
-        let frejol = ["Knombre":"Frejoles","Kdescripcion":"Guiso de frejoles con arroz y pescado frito","Kprecio":"18.4","Kimagen":"frejoles.jpg"]
+        // Instanciar y definir un objeto DAO
+        let objDAO = DataBase()
+        arrayPlatos = objDAO.ejecutarSelect("select * from platos_comidas")
+        print("Datos: \(arrayPlatos)")
         
-        let postre = ["Knombre":"Gelatina de fresa","Kdescripcion":"Gelatina de fresa con leche","Kprecio":"3.3","Kimagen":"gelatina.jpg"]
-        
-        arrayPlatos = [plato_ensalada,Sopa,frejol,postre,plato_ensalada,Sopa,frejol,postre,plato_ensalada,Sopa,frejol,postre,plato_ensalada,Sopa,frejol,postre,plato_ensalada,Sopa,frejol,postre]
         
     }
     
@@ -53,13 +62,18 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
         
         let cell = self.miTableView.dequeueReusableCellWithIdentifier("Cell")! as! CustomTableViewCell
         
-        let nombrePlato = arrayPlatos[indexPath.row]["Knombre"] as! String
-        let precioPlato = arrayPlatos[indexPath.row]["Kprecio"] as! String
-        let imagenPlato = arrayPlatos[indexPath.row]["Kimagen"] as! String
-        //cell.textLabel?.text = nombrePlato as? String
-        cell.tituloCell.text = nombrePlato 
-        cell.subtitleCell.text = "Precio S/. \(precioPlato)€"
-        cell.imageCell.image = UIImage(named: imagenPlato)
+        if let nombrePlato = arrayPlatos[indexPath.row]["nombre_plato"] as? String{
+            cell.tituloCell.text = nombrePlato
+        }
+        if let precioPlato = arrayPlatos[indexPath.row]["precio_plato"] as? String{
+            cell.subtitleCell.text = "Precio S/. \(precioPlato)€"
+        }
+        if let imagenPlato = arrayPlatos[indexPath.row]["archivo_plato"] as? String{
+            cell.imageCell.image = UIImage(named: imagenPlato)
+        }
+        
+        
+        
         
         return cell
     }

@@ -12,6 +12,18 @@
 		523224991C22365A002C6D90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 523224971C22365A002C6D90 /* Main.storyboard */; };
 		5232249B1C22365A002C6D90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5232249A1C22365A002C6D90 /* Assets.xcassets */; };
 		5232249E1C22365A002C6D90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5232249C1C22365A002C6D90 /* LaunchScreen.storyboard */; };
+		526D5B901C223CF3005C9131 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 526D5B8F1C223CF3005C9131 /* libsqlite3.tbd */; };
+		526D5B941C223D48005C9131 /* restaurant.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 526D5B931C223D48005C9131 /* restaurant.sqlite */; };
+		526D5B981C223D8D005C9131 /* DataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 526D5B971C223D8D005C9131 /* DataBase.m */; };
+		526D5BAE1C2245DF005C9131 /* anticucho.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 526D5B9B1C2245DF005C9131 /* anticucho.jpg */; };
+		526D5BAF1C2245DF005C9131 /* causa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 526D5B9C1C2245DF005C9131 /* causa.jpg */; };
+		526D5BB01C2245DF005C9131 /* ceviche.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 526D5B9D1C2245DF005C9131 /* ceviche.jpg */; };
+		526D5BB31C2245DF005C9131 /* ensalada.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 526D5BA01C2245DF005C9131 /* ensalada.jpg */; };
+		526D5BB71C2245DF005C9131 /* frejoles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 526D5BA41C2245DF005C9131 /* frejoles.jpg */; };
+		526D5BB81C2245DF005C9131 /* gelatina.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 526D5BA51C2245DF005C9131 /* gelatina.jpg */; };
+		526D5BBA1C2245DF005C9131 /* lomo_saltado.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 526D5BA71C2245DF005C9131 /* lomo_saltado.jpg */; };
+		526D5BBE1C2245DF005C9131 /* sopa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 526D5BAB1C2245DF005C9131 /* sopa.jpg */; };
+		526D5BC11C22468C005C9131 /* ensalada2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 526D5BC01C22468C005C9131 /* ensalada2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +34,20 @@
 		5232249A1C22365A002C6D90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5232249D1C22365A002C6D90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5232249F1C22365A002C6D90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		526D5B8F1C223CF3005C9131 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		526D5B931C223D48005C9131 /* restaurant.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = restaurant.sqlite; sourceTree = "<group>"; };
+		526D5B951C223D8C005C9131 /* BaseDeDatos-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BaseDeDatos-Bridging-Header.h"; sourceTree = "<group>"; };
+		526D5B961C223D8D005C9131 /* DataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBase.h; sourceTree = "<group>"; };
+		526D5B971C223D8D005C9131 /* DataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBase.m; sourceTree = "<group>"; };
+		526D5B9B1C2245DF005C9131 /* anticucho.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = anticucho.jpg; sourceTree = "<group>"; };
+		526D5B9C1C2245DF005C9131 /* causa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = causa.jpg; sourceTree = "<group>"; };
+		526D5B9D1C2245DF005C9131 /* ceviche.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ceviche.jpg; sourceTree = "<group>"; };
+		526D5BA01C2245DF005C9131 /* ensalada.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ensalada.jpg; sourceTree = "<group>"; };
+		526D5BA41C2245DF005C9131 /* frejoles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = frejoles.jpg; sourceTree = "<group>"; };
+		526D5BA51C2245DF005C9131 /* gelatina.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gelatina.jpg; sourceTree = "<group>"; };
+		526D5BA71C2245DF005C9131 /* lomo_saltado.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lomo_saltado.jpg; sourceTree = "<group>"; };
+		526D5BAB1C2245DF005C9131 /* sopa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sopa.jpg; sourceTree = "<group>"; };
+		526D5BC01C22468C005C9131 /* ensalada2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ensalada2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				526D5B901C223CF3005C9131 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +65,13 @@
 		523224871C22365A002C6D90 = {
 			isa = PBXGroup;
 			children = (
+				526D5B8F1C223CF3005C9131 /* libsqlite3.tbd */,
+				526D5B931C223D48005C9131 /* restaurant.sqlite */,
+				526D5B961C223D8D005C9131 /* DataBase.h */,
+				526D5B971C223D8D005C9131 /* DataBase.m */,
 				523224921C22365A002C6D90 /* BaseDeDatos */,
 				523224911C22365A002C6D90 /* Products */,
+				526D5B951C223D8C005C9131 /* BaseDeDatos-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +92,25 @@
 				5232249A1C22365A002C6D90 /* Assets.xcassets */,
 				5232249C1C22365A002C6D90 /* LaunchScreen.storyboard */,
 				5232249F1C22365A002C6D90 /* Info.plist */,
+				526D5B991C2245DF005C9131 /* imagenes_platos */,
 			);
 			path = BaseDeDatos;
+			sourceTree = "<group>";
+		};
+		526D5B991C2245DF005C9131 /* imagenes_platos */ = {
+			isa = PBXGroup;
+			children = (
+				526D5B9B1C2245DF005C9131 /* anticucho.jpg */,
+				526D5B9C1C2245DF005C9131 /* causa.jpg */,
+				526D5B9D1C2245DF005C9131 /* ceviche.jpg */,
+				526D5BA01C2245DF005C9131 /* ensalada.jpg */,
+				526D5BC01C22468C005C9131 /* ensalada2.jpg */,
+				526D5BA41C2245DF005C9131 /* frejoles.jpg */,
+				526D5BA51C2245DF005C9131 /* gelatina.jpg */,
+				526D5BA71C2245DF005C9131 /* lomo_saltado.jpg */,
+				526D5BAB1C2245DF005C9131 /* sopa.jpg */,
+			);
+			path = imagenes_platos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +172,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				526D5BB81C2245DF005C9131 /* gelatina.jpg in Resources */,
+				526D5BB31C2245DF005C9131 /* ensalada.jpg in Resources */,
 				5232249E1C22365A002C6D90 /* LaunchScreen.storyboard in Resources */,
+				526D5BB01C2245DF005C9131 /* ceviche.jpg in Resources */,
 				5232249B1C22365A002C6D90 /* Assets.xcassets in Resources */,
+				526D5BAE1C2245DF005C9131 /* anticucho.jpg in Resources */,
+				526D5B941C223D48005C9131 /* restaurant.sqlite in Resources */,
+				526D5BBA1C2245DF005C9131 /* lomo_saltado.jpg in Resources */,
+				526D5BC11C22468C005C9131 /* ensalada2.jpg in Resources */,
+				526D5BB71C2245DF005C9131 /* frejoles.jpg in Resources */,
+				526D5BAF1C2245DF005C9131 /* causa.jpg in Resources */,
+				526D5BBE1C2245DF005C9131 /* sopa.jpg in Resources */,
 				523224991C22365A002C6D90 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +197,7 @@
 			files = (
 				523224961C22365A002C6D90 /* ViewController.swift in Sources */,
 				523224941C22365A002C6D90 /* AppDelegate.swift in Sources */,
+				526D5B981C223D8D005C9131 /* DataBase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,10 +310,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BaseDeDatos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.merlosalbarracin.BaseDeDatos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BaseDeDatos-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -261,10 +324,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BaseDeDatos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.merlosalbarracin.BaseDeDatos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BaseDeDatos-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -287,6 +352,7 @@
 				523224A41C22365A002C6D90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
