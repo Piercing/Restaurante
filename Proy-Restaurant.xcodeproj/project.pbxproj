@@ -22,7 +22,6 @@
 		523224761C211315002C6D90 /* ensalada.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 523224631C211315002C6D90 /* ensalada.jpg */; };
 		523224771C211315002C6D90 /* fondoMenu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 523224641C211315002C6D90 /* fondoMenu.jpg */; };
 		523224781C211315002C6D90 /* fondoP1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 523224651C211315002C6D90 /* fondoP1.jpg */; };
-		523224791C211315002C6D90 /* fondosChef.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 523224661C211315002C6D90 /* fondosChef.jpg */; };
 		5232247A1C211315002C6D90 /* frejoles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 523224671C211315002C6D90 /* frejoles.jpg */; };
 		5232247B1C211315002C6D90 /* gelatina.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 523224681C211315002C6D90 /* gelatina.jpg */; };
 		5232247C1C211315002C6D90 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 523224691C211315002C6D90 /* home.png */; };
@@ -34,6 +33,21 @@
 		523224821C211315002C6D90 /* toolbarFondo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5232246F1C211315002C6D90 /* toolbarFondo.png */; };
 		523224841C21CFCB002C6D90 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523224831C21CFCB002C6D90 /* CustomTableViewCell.swift */; };
 		523224861C21D8B6002C6D90 /* DetalleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523224851C21D8B6002C6D90 /* DetalleViewController.swift */; };
+		526D5BC31C224E82005C9131 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 526D5BC21C224E82005C9131 /* libsqlite3.tbd */; };
+		526D5BC51C224EA5005C9131 /* ComidasBD.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 526D5BC41C224EA5005C9131 /* ComidasBD.sqlite */; };
+		526D5BC91C224EF2005C9131 /* DataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 526D5BC81C224EF2005C9131 /* DataBase.m */; };
+		526D5BD71C2252C9005C9131 /* carne.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 526D5BCB1C2252C9005C9131 /* carne.jpg */; };
+		526D5BD81C2252C9005C9131 /* ensalada2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 526D5BCC1C2252C9005C9131 /* ensalada2.jpg */; };
+		526D5BD91C2252C9005C9131 /* ensalada3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 526D5BCD1C2252C9005C9131 /* ensalada3.jpg */; };
+		526D5BDB1C2252C9005C9131 /* home32.png in Resources */ = {isa = PBXBuildFile; fileRef = 526D5BCF1C2252C9005C9131 /* home32.png */; };
+		526D5BDC1C2252C9005C9131 /* imagesgaston.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 526D5BD01C2252C9005C9131 /* imagesgaston.jpg */; };
+		526D5BDD1C2252C9005C9131 /* logoRestaurante.png in Resources */ = {isa = PBXBuildFile; fileRef = 526D5BD11C2252C9005C9131 /* logoRestaurante.png */; };
+		526D5BDE1C2252C9005C9131 /* logoRestaurante.psd in Resources */ = {isa = PBXBuildFile; fileRef = 526D5BD21C2252C9005C9131 /* logoRestaurante.psd */; };
+		526D5BDF1C2252C9005C9131 /* lomo_saltado2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 526D5BD31C2252C9005C9131 /* lomo_saltado2.jpg */; };
+		526D5BE01C2252C9005C9131 /* salchipapa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 526D5BD41C2252C9005C9131 /* salchipapa.jpg */; };
+		526D5BE11C2252C9005C9131 /* toolbarFondo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 526D5BD51C2252C9005C9131 /* toolbarFondo.jpg */; };
+		526D5BE21C2252C9005C9131 /* toolbarFondo.psd in Resources */ = {isa = PBXBuildFile; fileRef = 526D5BD61C2252C9005C9131 /* toolbarFondo.psd */; };
+		526D5BE41C2253D7005C9131 /* fondosChef.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 526D5BE31C2253D7005C9131 /* fondosChef.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,7 +68,6 @@
 		523224631C211315002C6D90 /* ensalada.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ensalada.jpg; sourceTree = "<group>"; };
 		523224641C211315002C6D90 /* fondoMenu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fondoMenu.jpg; sourceTree = "<group>"; };
 		523224651C211315002C6D90 /* fondoP1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fondoP1.jpg; sourceTree = "<group>"; };
-		523224661C211315002C6D90 /* fondosChef.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fondosChef.jpg; sourceTree = "<group>"; };
 		523224671C211315002C6D90 /* frejoles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = frejoles.jpg; sourceTree = "<group>"; };
 		523224681C211315002C6D90 /* gelatina.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gelatina.jpg; sourceTree = "<group>"; };
 		523224691C211315002C6D90 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
@@ -66,6 +79,23 @@
 		5232246F1C211315002C6D90 /* toolbarFondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolbarFondo.png; sourceTree = "<group>"; };
 		523224831C21CFCB002C6D90 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		523224851C21D8B6002C6D90 /* DetalleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetalleViewController.swift; sourceTree = "<group>"; };
+		526D5BC21C224E82005C9131 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		526D5BC41C224EA5005C9131 /* ComidasBD.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = ComidasBD.sqlite; path = "Proy-Restaurant/proyrestaurantefase2/recursos/BD-Comidas/ComidasBD.sqlite"; sourceTree = "<group>"; };
+		526D5BC61C224EF0005C9131 /* Proy-Restaurant-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Proy-Restaurant-Bridging-Header.h"; sourceTree = "<group>"; };
+		526D5BC71C224EF2005C9131 /* DataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataBase.h; path = "Proy-Restaurant/proyrestaurantefase2/recursos/Libreria_BD/DataBase.h"; sourceTree = "<group>"; };
+		526D5BC81C224EF2005C9131 /* DataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataBase.m; path = "Proy-Restaurant/proyrestaurantefase2/recursos/Libreria_BD/DataBase.m"; sourceTree = "<group>"; };
+		526D5BCB1C2252C9005C9131 /* carne.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carne.jpg; sourceTree = "<group>"; };
+		526D5BCC1C2252C9005C9131 /* ensalada2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ensalada2.jpg; sourceTree = "<group>"; };
+		526D5BCD1C2252C9005C9131 /* ensalada3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ensalada3.jpg; sourceTree = "<group>"; };
+		526D5BCF1C2252C9005C9131 /* home32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home32.png; sourceTree = "<group>"; };
+		526D5BD01C2252C9005C9131 /* imagesgaston.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imagesgaston.jpg; sourceTree = "<group>"; };
+		526D5BD11C2252C9005C9131 /* logoRestaurante.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoRestaurante.png; sourceTree = "<group>"; };
+		526D5BD21C2252C9005C9131 /* logoRestaurante.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = logoRestaurante.psd; sourceTree = "<group>"; };
+		526D5BD31C2252C9005C9131 /* lomo_saltado2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lomo_saltado2.jpg; sourceTree = "<group>"; };
+		526D5BD41C2252C9005C9131 /* salchipapa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = salchipapa.jpg; sourceTree = "<group>"; };
+		526D5BD51C2252C9005C9131 /* toolbarFondo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = toolbarFondo.jpg; sourceTree = "<group>"; };
+		526D5BD61C2252C9005C9131 /* toolbarFondo.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = toolbarFondo.psd; sourceTree = "<group>"; };
+		526D5BE31C2253D7005C9131 /* fondosChef.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fondosChef.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				526D5BC31C224E82005C9131 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,8 +113,12 @@
 		5232243C1C210EA2002C6D90 = {
 			isa = PBXGroup;
 			children = (
+				526D5BC21C224E82005C9131 /* libsqlite3.tbd */,
+				526D5BC41C224EA5005C9131 /* ComidasBD.sqlite */,
+				526D5BCA1C224F52005C9131 /* DAO */,
 				523224471C210EA2002C6D90 /* Proy-Restaurant */,
 				523224461C210EA2002C6D90 /* Products */,
+				526D5BC61C224EF0005C9131 /* Proy-Restaurant-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,16 +133,16 @@
 		523224471C210EA2002C6D90 /* Proy-Restaurant */ = {
 			isa = PBXGroup;
 			children = (
+				523224561C210EA3002C6D90 /* Info.plist */,
 				523224481C210EA2002C6D90 /* AppDelegate.swift */,
+				523224831C21CFCB002C6D90 /* CustomTableViewCell.swift */,
+				523224851C21D8B6002C6D90 /* DetalleViewController.swift */,
 				5232244A1C210EA2002C6D90 /* FirstViewController.swift */,
 				5232244C1C210EA2002C6D90 /* SecondViewController.swift */,
-				523224831C21CFCB002C6D90 /* CustomTableViewCell.swift */,
-				5232244E1C210EA2002C6D90 /* Main.storyboard */,
 				523224511C210EA2002C6D90 /* Assets.xcassets */,
 				5232245C1C211315002C6D90 /* imagenes_restaurant */,
 				523224531C210EA2002C6D90 /* LaunchScreen.storyboard */,
-				523224561C210EA3002C6D90 /* Info.plist */,
-				523224851C21D8B6002C6D90 /* DetalleViewController.swift */,
+				5232244E1C210EA2002C6D90 /* Main.storyboard */,
 			);
 			path = "Proy-Restaurant";
 			sourceTree = "<group>";
@@ -117,25 +152,45 @@
 			children = (
 				5232245D1C211315002C6D90 /* 000b_1341628557181218.jpg */,
 				5232245E1C211315002C6D90 /* anticucho.jpg */,
+				526D5BCB1C2252C9005C9131 /* carne.jpg */,
 				5232245F1C211315002C6D90 /* causa.jpg */,
 				523224601C211315002C6D90 /* ceviche.jpg */,
 				523224611C211315002C6D90 /* chef-info48.png */,
 				523224621C211315002C6D90 /* chef-info64.png */,
 				523224631C211315002C6D90 /* ensalada.jpg */,
+				526D5BCC1C2252C9005C9131 /* ensalada2.jpg */,
+				526D5BCD1C2252C9005C9131 /* ensalada3.jpg */,
 				523224641C211315002C6D90 /* fondoMenu.jpg */,
 				523224651C211315002C6D90 /* fondoP1.jpg */,
-				523224661C211315002C6D90 /* fondosChef.jpg */,
+				526D5BE31C2253D7005C9131 /* fondosChef.jpg */,
 				523224671C211315002C6D90 /* frejoles.jpg */,
 				523224681C211315002C6D90 /* gelatina.jpg */,
 				523224691C211315002C6D90 /* home.png */,
+				526D5BCF1C2252C9005C9131 /* home32.png */,
+				526D5BD01C2252C9005C9131 /* imagesgaston.jpg */,
+				526D5BD11C2252C9005C9131 /* logoRestaurante.png */,
+				526D5BD21C2252C9005C9131 /* logoRestaurante.psd */,
 				5232246A1C211315002C6D90 /* lomo_saltado.jpg */,
+				526D5BD31C2252C9005C9131 /* lomo_saltado2.jpg */,
 				5232246B1C211315002C6D90 /* menu-48.png */,
 				5232246C1C211315002C6D90 /* menu-64.png */,
 				5232246D1C211315002C6D90 /* restaurant.jpg */,
+				526D5BD41C2252C9005C9131 /* salchipapa.jpg */,
 				5232246E1C211315002C6D90 /* sopa.jpg */,
+				526D5BD51C2252C9005C9131 /* toolbarFondo.jpg */,
 				5232246F1C211315002C6D90 /* toolbarFondo.png */,
+				526D5BD61C2252C9005C9131 /* toolbarFondo.psd */,
 			);
 			path = imagenes_restaurant;
+			sourceTree = "<group>";
+		};
+		526D5BCA1C224F52005C9131 /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				526D5BC71C224EF2005C9131 /* DataBase.h */,
+				526D5BC81C224EF2005C9131 /* DataBase.m */,
+			);
+			name = DAO;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,28 +252,40 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				523224791C211315002C6D90 /* fondosChef.jpg in Resources */,
+				526D5BDD1C2252C9005C9131 /* logoRestaurante.png in Resources */,
+				526D5BD71C2252C9005C9131 /* carne.jpg in Resources */,
 				523224701C211315002C6D90 /* 000b_1341628557181218.jpg in Resources */,
 				523224721C211315002C6D90 /* causa.jpg in Resources */,
+				526D5BD91C2252C9005C9131 /* ensalada3.jpg in Resources */,
 				523224551C210EA2002C6D90 /* LaunchScreen.storyboard in Resources */,
 				5232247C1C211315002C6D90 /* home.png in Resources */,
 				523224771C211315002C6D90 /* fondoMenu.jpg in Resources */,
+				526D5BD81C2252C9005C9131 /* ensalada2.jpg in Resources */,
+				526D5BC51C224EA5005C9131 /* ComidasBD.sqlite in Resources */,
 				523224521C210EA2002C6D90 /* Assets.xcassets in Resources */,
 				523224501C210EA2002C6D90 /* Main.storyboard in Resources */,
 				523224741C211315002C6D90 /* chef-info48.png in Resources */,
 				523224761C211315002C6D90 /* ensalada.jpg in Resources */,
+				526D5BDF1C2252C9005C9131 /* lomo_saltado2.jpg in Resources */,
 				523224821C211315002C6D90 /* toolbarFondo.png in Resources */,
 				523224801C211315002C6D90 /* restaurant.jpg in Resources */,
 				523224711C211315002C6D90 /* anticucho.jpg in Resources */,
+				526D5BE11C2252C9005C9131 /* toolbarFondo.jpg in Resources */,
 				5232247B1C211315002C6D90 /* gelatina.jpg in Resources */,
+				526D5BE41C2253D7005C9131 /* fondosChef.jpg in Resources */,
+				526D5BE21C2252C9005C9131 /* toolbarFondo.psd in Resources */,
 				5232247F1C211315002C6D90 /* menu-64.png in Resources */,
 				523224781C211315002C6D90 /* fondoP1.jpg in Resources */,
 				5232247A1C211315002C6D90 /* frejoles.jpg in Resources */,
 				523224811C211315002C6D90 /* sopa.jpg in Resources */,
 				5232247E1C211315002C6D90 /* menu-48.png in Resources */,
 				5232247D1C211315002C6D90 /* lomo_saltado.jpg in Resources */,
+				526D5BDC1C2252C9005C9131 /* imagesgaston.jpg in Resources */,
 				523224751C211315002C6D90 /* chef-info64.png in Resources */,
+				526D5BE01C2252C9005C9131 /* salchipapa.jpg in Resources */,
 				523224731C211315002C6D90 /* ceviche.jpg in Resources */,
+				526D5BDB1C2252C9005C9131 /* home32.png in Resources */,
+				526D5BDE1C2252C9005C9131 /* logoRestaurante.psd in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,6 +298,7 @@
 			files = (
 				5232244D1C210EA2002C6D90 /* SecondViewController.swift in Sources */,
 				523224861C21D8B6002C6D90 /* DetalleViewController.swift in Sources */,
+				526D5BC91C224EF2005C9131 /* DataBase.m in Sources */,
 				523224491C210EA2002C6D90 /* AppDelegate.swift in Sources */,
 				523224841C21CFCB002C6D90 /* CustomTableViewCell.swift in Sources */,
 				5232244B1C210EA2002C6D90 /* FirstViewController.swift in Sources */,
@@ -346,10 +414,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Proy-Restaurant/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.merlosalbarracin.Proy-Restaurant";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Proy-Restaurant-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -357,10 +428,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Proy-Restaurant/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.merlosalbarracin.Proy-Restaurant";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Proy-Restaurant-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -383,6 +456,7 @@
 				5232245B1C210EA3002C6D90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

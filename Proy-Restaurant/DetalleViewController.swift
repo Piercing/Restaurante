@@ -28,17 +28,17 @@ class DetalleViewController: UIViewController {
         super.viewDidLoad()
 
         // imagen plato
-        if let nombreArchivo = datoDetalle["Kimagen"] as? String{
+        if let nombreArchivo = datoDetalle["archivo_plato"] as? String{
             imagenDetalle.image = UIImage(named: nombreArchivo)
         }
         // Nombre, precio y detalle plato
-        if let nombrePlato: String = datoDetalle["Knombre"] as? String{
+        if let nombrePlato: String = datoDetalle["nombre_plato"] as? String{
             tituloDetalle.text = nombrePlato
         }
-        if let precioPlato = datoDetalle["Kprecio"] as? String{
+        if let precioPlato = datoDetalle["precio_plato"] as? String{
             precioDetalle.text = "Precio S/.\(precioPlato)€"
         }
-        if let descripPlato = datoDetalle["Kdescripcion"]as? String{
+        if let descripPlato = datoDetalle["descripcion_plato"]as? String{
             descripcionDetalle.text = descripPlato
         }
     }
