@@ -9,7 +9,7 @@
 import UIKit
 
 class DetalleViewController: UIViewController {
-
+    
     
     @IBOutlet weak var imagenDetalle: UIImageView!
     
@@ -26,7 +26,7 @@ class DetalleViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // imagen plato
         if let nombreArchivo = datoDetalle["archivo_plato"] as? String{
             imagenDetalle.image = UIImage(named: nombreArchivo)
@@ -42,21 +42,37 @@ class DetalleViewController: UIViewController {
             descripcionDetalle.text = descripPlato
         }
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    
+    @IBAction func shareButton(sender: AnyObject) {
+        
+        var textoCompartir = ""
+        if let nombrePlato = tituloDetalle.text{ textoCompartir = "Recomendamos visitar nuestro RESTAURANTE y disfurtar de este exquisito plato: \(nombrePlato)"
+        }
+        
+        let imagenShared:UIImage! = imagenDetalle.image
+        
+        if let urlCompartir = NSURL(string: "http://www.google.es"){
+            
+            let objetoCompartir:NSArray = [textoCompartir, imagenShared, urlCompartir]
+            
+            let socialActivity = UIActivityViewController(activityItems: objetoCompartir as [AnyObject], applicationActivities: nil)
+            
+            self.presentViewController(socialActivity, animated: true, completion: nil)
+        }
+        
+        
     }
-    */
-
+    
+    
+    
+    
+    
+    
+    
 }

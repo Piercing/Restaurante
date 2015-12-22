@@ -744,6 +744,17 @@
                             </mask>
                         </variation>
                     </view>
+                    <toolbarItems>
+                        <barButtonItem systemItem="pageCurl" id="Cbx-pM-iqz"/>
+                    </toolbarItems>
+                    <navigationItem key="navigationItem" id="MsK-t2-bmz">
+                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="aMQ-aL-aIN">
+                            <connections>
+                                <action selector="shareButton:" destination="FBc-6n-Itm" id="dpG-fK-WVQ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="descripcionDetalle" destination="EyD-KP-mJL" id="67M-Jo-6ej"/>
                         <outlet property="imagenDetalle" destination="tDZ-y0-qpE" id="an7-o5-Hzi"/>
@@ -752,6 +763,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xdn-3f-hAg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <barButtonItem systemItem="action" id="Vy0-Pc-4ML"/>
             </objects>
             <point key="canvasLocation" x="1711.5" y="-214"/>
         </scene>
