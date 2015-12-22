@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>latitud</key>
+		<string>-12.0786742</string>
+		<key>longitud</key>
+		<string>-77.0498576</string>
+		<key>nombre</key>
+		<string>tokio ramen</string>
+		<key>descripcion</key>
+		<string>Av Felipe Salaverry Lince 15073</string>
+	</dict>
+	<dict>
+		<key>latitud</key>
+		<string>-12.0835841</string>
+		<key>longitud</key>
+		<string>-77.043549</string>
+		<key>nombre</key>
+		<string>Kaori Sushi Bar</string>
+		<key>descripcion</key>
+		<string>Centro Comercial San Felipe</string>
+	</dict>
+</array>
+</plist>
