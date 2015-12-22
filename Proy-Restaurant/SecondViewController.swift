@@ -18,32 +18,38 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
         super.viewDidLoad()
         
         
-        //definir objetos dictionary para plato
-        //        let plato_ensalada = ["Knombre":"Ensalada de Verduras","Kdescripcion":"Verduras picadas con tomate, zanahoria y lechuga","Kprecio":"14.50","Kimagen":"ensalada.jpg"]
-        //
-        //        let Sopa = ["Knombre":"Sopa de Pollo","Kdescripcion":"Pollo hervido con verduras y papas con fideos","Kprecio":"10.45","Kimagen":"sopa.jpg"]
-        //
-        //        let frejol = ["Knombre":"Frejoles","Kdescripcion":"Guiso de frejoles con arroz y pescado frito","Kprecio":"18.4","Kimagen":"frejoles.jpg"]
-        //
-        //        let postre = ["Knombre":"Gelatina de fresa","Kdescripcion":"Gelatina de fresa con leche","Kprecio":"3.3","Kimagen":"gelatina.jpg"]
-        //
-        //        arrayPlatos = [plato_ensalada,Sopa,frejol,postre,plato_ensalada,Sopa,frejol,postre,plato_ensalada,Sopa,frejol,postre,plato_ensalada,Sopa,frejol,postre,plato_ensalada,Sopa,frejol,postre]
+    
+        //print("Datos: \(arrayPlatos)")
+        print("View Did load")
+    }
+    
+    // Ciclo de vida de la View
+    override func viewWillAppear(animated: Bool) {
+        print("will apper")
         
-        // Inicializar la BBDD
-        DataBase.checkAndCreateDatabase()
+        
         
         // Instanciar y definir un objeto DAO
         let objDAO = DataBase()
+        // leemos lo que contine la BBDD y lo almacenamos en el array
         arrayPlatos = objDAO.ejecutarSelect("select * from platos_comidas")
-        print("Datos: \(arrayPlatos)")
         
-        
+        // llamamos al objeto miTableView y la actualizamos cada vez que solicitamos los datos
+        // a la BBDD, con esto conseguimos actulizar la tabla por si hubiera nuevos registros.
+
+        self.miTableView.reloadData()
     }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    override func viewDidAppear(animated: Bool) {
+        print("Did appear")
     }
+    
+    override func viewDidDisappear(animated: Bool) {
+        print("Did Disappear")
+    }
+    
+    
+    
     
     
     // Estos son los tres métodos delegados que hay que implementar
@@ -73,8 +79,6 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
         }
         
         
-        
-        
         return cell
     }
     
@@ -97,6 +101,13 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
                 objVistaDestino.datoDetalle = objSelected
             }
         }
+    }
+    
+    
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
     }
 }
 
