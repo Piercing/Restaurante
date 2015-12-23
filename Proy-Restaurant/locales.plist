@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>longitud</key>
+		<string>36.8405095</string>
+		<key>latitud</key>
+		<string>-2.4674876,18</string>
+		<key>nombre</key>
+		<string>Casa Puga</string>
+		<key>descripcion</key>
+		<string>Calle Jovellanos, 7,04003 Almería</string>
+	</dict>
+	<dict>
+		<key>longitud</key>
+		<string>36.840385</string>
+		<key>latitud</key>
+		<string>-2.4685927,17</string>
+		<key>nombre</key>
+		<string>Casa sevilla</string>
+		<key>descripcion</key>
+		<string>Galería Comercial Almericentro,Calle Rueda López, s/n,04004 Almería</string>
+	</dict>
+</array>
+</plist>
