@@ -16,9 +16,12 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
     
     override func viewDidLoad() {
         super.viewDidLoad()
+ 
         
+        // Imagen para el navigationBar
+        let imgBackground = UIImage(named: "toolbarFondo.jpg")
         
-    
+        self.navigationController?.navigationBar.setBackgroundImage(imgBackground, forBarMetrics: .Default)
         //print("Datos: \(arrayPlatos)")
         print("View Did load")
     }
@@ -26,9 +29,7 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
     // Ciclo de vida de la View
     override func viewWillAppear(animated: Bool) {
         print("will apper")
-        
-        
-        
+
         // Instanciar y definir un objeto DAO
         let objDAO = DataBase()
         // leemos lo que contine la BBDD y lo almacenamos en el array
@@ -36,7 +37,6 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
         
         // llamamos al objeto miTableView y la actualizamos cada vez que solicitamos los datos
         // a la BBDD, con esto conseguimos actulizar la tabla por si hubiera nuevos registros.
-
         self.miTableView.reloadData()
     }
     
@@ -47,10 +47,6 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
     override func viewDidDisappear(animated: Bool) {
         print("Did Disappear")
     }
-    
-    
-    
-    
     
     // Estos son los tres métodos delegados que hay que implementar
     // cuando arrastramos con control desde la tableView hacia el View
