@@ -989,10 +989,9 @@
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UCO-gg-LCZ">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-<<<<<<< HEAD
-=======
+
                                 <color key="backgroundColor" red="0.98431372549019602" green="0.84705882352941175" blue="0.3411764705882353" alpha="1" colorSpace="calibratedRGB"/>
->>>>>>> feature1
+
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="5jj-4p-Szy">
                                         <variation key="widthClass=compact" constant="89"/>
@@ -1138,11 +1137,9 @@
                                 <exclude reference="5Dg-MJ-E1Y"/>
                                 <exclude reference="RS8-Ue-D94"/>
                                 <exclude reference="VlL-L5-KRL"/>
-<<<<<<< HEAD
                                 <exclude reference="4tt-1n-cdH"/>
                                 <exclude reference="qPn-Uf-JCx"/>
                                 <exclude reference="rGh-Ke-cCL"/>
-=======
                                 <exclude reference="u5d-zj-y9O"/>
                                 <exclude reference="krV-c3-0nI"/>
                                 <exclude reference="9E3-ab-0sj"/>
@@ -1150,7 +1147,7 @@
                                 <exclude reference="b3K-UH-CaW"/>
                                 <exclude reference="ieI-9K-8Cz"/>
                                 <exclude reference="txz-2Q-Zhv"/>
->>>>>>> feature1
+
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -1181,11 +1178,11 @@
                                 <include reference="5Dg-MJ-E1Y"/>
                                 <include reference="RS8-Ue-D94"/>
                                 <include reference="VlL-L5-KRL"/>
-<<<<<<< HEAD
+
                                 <include reference="4tt-1n-cdH"/>
                                 <include reference="qPn-Uf-JCx"/>
                                 <include reference="rGh-Ke-cCL"/>
-=======
+
                                 <include reference="u5d-zj-y9O"/>
                                 <include reference="krV-c3-0nI"/>
                                 <include reference="9E3-ab-0sj"/>
@@ -1193,7 +1190,7 @@
                                 <include reference="b3K-UH-CaW"/>
                                 <include reference="ieI-9K-8Cz"/>
                                 <include reference="txz-2Q-Zhv"/>
->>>>>>> feature1
+
                             </mask>
                         </variation>
                     </view>
