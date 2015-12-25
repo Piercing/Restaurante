@@ -10,7 +10,7 @@
 		<key>nombre</key>
 		<string>Casa Puga</string>
 		<key>descripcion</key>
-		<string>Calle Jovellanos, 7,04003 Almería</string>
+		<string>Calle Jovellanos, 7 - 04003 Almería</string>
 	</dict>
 	<dict>
 		<key>longitud</key>
@@ -20,7 +20,7 @@
 		<key>nombre</key>
 		<string>Casa sevilla</string>
 		<key>descripcion</key>
-		<string>Galería Comercial Almericentro,Calle Rueda López, s/n,04004 Almería</string>
+		<string>Galería Almericentro, C/ Rueda López, s/n,04004 Almería</string>
 	</dict>
 </array>
 </plist>

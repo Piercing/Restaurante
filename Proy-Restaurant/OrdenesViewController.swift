@@ -33,8 +33,8 @@ class OrdenesViewController: UIViewController, UITableViewDataSource, UITableVie
         for item in arrayOrdenes{
             
             let precioP = Float(item["precio_plato"] as! String)
-            let cantidadP = Float(item["cantidad_plato"] as! String)
-            let precioSemiTotal = precioP! * cantidadP!
+            let cantidadP = (item["cantidad_plato"] as! Int)
+            let precioSemiTotal = precioP! * Float(cantidadP)
             totalSuma += precioSemiTotal
         }
         totalPedido.text = "\(totalSuma)€"
@@ -78,13 +78,5 @@ class OrdenesViewController: UIViewController, UITableViewDataSource, UITableVie
 
         return cell
     }
-    
-    
-    
-    
-    
-    
-    
-    
     
 }

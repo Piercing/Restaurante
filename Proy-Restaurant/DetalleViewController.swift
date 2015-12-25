@@ -34,15 +34,14 @@ class DetalleViewController: UIViewController, UITextFieldDelegate {
         let precioPlato = self.precioPlato
         let archivoPlato = nombreArchivo
         
-        if cantidadOrden == ""{
-            let alerOrden = UIAlertController(title: "Atención", message: "Introduzca una cantidad no nula para ordenar", preferredStyle: .Alert)
+        if cantidadOrden == "" || cantidadOrden == "0" {
+            let alerOrden = UIAlertController(title: "Atención", message: "Introduzca una cantidad no nula y mayor que cero para ordenar", preferredStyle: .Alert)
             let defaultAction = UIAlertAction(title: "Ok", style: .Default, handler: nil)
             alerOrden.addAction(defaultAction)
             presentViewController(alerOrden, animated: true, completion: nil)
-            //exit(0)
         }else{
             let sqlInsert = "insert into ordenpedido (nombre_plato, precio_plato, archivo_plato, cantidad_plato) values('\(nomPlato)','\(precioPlato)','\(archivoPlato)','\(cantidadOrden)')"
-            // llamamos al método insert con el objeto DAO
+            // Insertamos valores si todo es correcto
             objDAO.ejecutarInsert(sqlInsert)
         }
         

@@ -2,8 +2,8 @@
 //  DataBase.h
 //  iphone4peru.com
 //
-//  Created by Christian Quicano on 4/18/14.
-//  Copyright (c) 2014 Electronic Core Networks S.A.C. All rights reserved.
+//  Created by MacBook Pro on 16/12/15.
+//  Copyright © 2015 Juan Carlos Merlos. All rights reserved.
 //
 
 #import "DataBase.h"
